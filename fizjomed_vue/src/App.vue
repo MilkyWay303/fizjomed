@@ -25,14 +25,14 @@ import FooterComponent from './components/FooterComponent.vue';
   margin: 0 auto 2rem;
 }
 
-header {
+/* header {
   display: flex;
   justify-content: center;
-  /* position: absolute; */
-  /* top: 0; */
-  /* margin: 15px auto 15px auto; */
-  /* inset: 1px; */
-}
+  position: absolute;
+  top: 0;
+  margin: 15px auto 15px auto;
+  inset: 1px;
+} */
 
 main {
   display: flex;

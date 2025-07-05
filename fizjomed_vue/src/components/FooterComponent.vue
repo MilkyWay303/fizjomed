@@ -16,7 +16,10 @@
         place-content: center;
         place-items: center;
         display: flex;
-        height: 50px;
+        height: 150px;
+        margin-top: 50px;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
     }
 
     a {

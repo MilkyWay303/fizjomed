@@ -1,5 +1,5 @@
 <template>
-    <div class="yes">
+    <div class="main">
         <div>
             <p> 
                 Gabinet Rehabilitacji Fizjomed został założony w 2003r. Dysponuje nowoczesnym sprzętem do fizykoterapii.
@@ -28,21 +28,30 @@
 
             <img src="../../assets/fozjomed_graffica.png">
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5125.382982767211!2d21.994286613085038!3d50.03587501700744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cfb013aa7ead1%3A0xa78ebc26349a9d69!2sFizjomed.%20Gabinet%20rehabilitacji!5e0!3m2!1spl!2spl!4v1751666179992!5m2!1spl!2spl"  style="border:0;" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
         </div>
+    </div>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5126.033377349853!2d21.994286613085052!3d50.035875017007456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cfb013aa7ead1%3A0xa78ebc26349a9d69!2sFizjomed.%20Gabinet%20rehabilitacji!5e0!3m2!1spl!2spl!4v1751718851132!5m2!1spl!2spl"  style="" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </template>
 
 <style scoped>
-    .yes {
+    .main {
         padding: 50px;
         width: 1590px;
         min-width: 990px;
         place-content: center;
         place-items: center;
-        display: flex;
-        background-color: #F9F6EE;
-        height: 100;
+        /* display: flex; */
+        background-color: #009A9A;
+        height: 100%;
+        /* border-radius: 50px; */
+        border-bottom-left-radius: 50px;
+    }
+
+    .map {
+        margin-left: 5px;
     }
 
     p {
@@ -50,8 +59,14 @@
     }
 
     iframe {
-        height: 450px;
+        height: 100vh;
         width: 100%;
+        border-style: solid;
+        border-width: 2px;
+        border-color: gray;
+        /* border-radius: 50px; */
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
     }
 
     .nfz {
