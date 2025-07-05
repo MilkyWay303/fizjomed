@@ -1,11 +1,11 @@
 <template>
   <div class="navbar">
     <div class="navbar_logo">
-      <svg class="curve" width="64px" height="64px" viewBox="0 0 100 100"><path d="m100,0H0v100C0,44.77,44.77,0,100,0Z" fill="#ffffff"></path></svg>
+      <svg class="curve" width="64px" height="64px" viewBox="0 0 100 100"><path d="m100,0H0v100C0,44.77,44.77,0,100,0Z" fill="#F9F6EE"></path></svg>
       
       <img class="fizjomed_nav" src="../assets/fizjomed_logo_2.png" alt="fizjomed_logo">
       
-      <svg class="chuj" width="64px" height="64px" viewBox="0 0 100 100"><path d="m100,0H0v100C0,44.77,44.77,0,100,0Z" fill="#ffffff"></path></svg>
+      <svg class="chuj" width="64px" height="64px" viewBox="0 0 100 100"><path d="m100,0H0v100C0,44.77,44.77,0,100,0Z" fill="#F9F6EE"></path></svg>
       
     </div>
     
