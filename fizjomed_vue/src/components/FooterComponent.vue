@@ -10,7 +10,7 @@
     }
 
     .foot {    
-        background-color: #F9F6EE;
+        background-color: gray;
         width: 1590px;
         min-width: 990px;
         place-content: center;
