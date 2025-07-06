@@ -5,13 +5,12 @@
       
       <img class="fizjomed_nav" src="../assets/fizjomed_logo_2.png" alt="fizjomed_logo">
       
-      <svg class="chuj" width="64px" height="64px" viewBox="0 0 100 100"><path d="m100,0H0v100C0,44.77,44.77,0,100,0Z" fill="#F9F6EE"></path></svg>
+      <svg class="curve_2" width="64px" height="64px" viewBox="0 0 100 100"><path d="m100,0H0v100C0,44.77,44.77,0,100,0Z" fill="#F9F6EE"></path></svg>
       
     </div>
     
     <nav class="navbar_nav">
       <router-link to="/">O nas</router-link> 
- 
       <router-link to="/oferta">Oferta</router-link> 
       <router-link to="/nasz-zespol">Nasz zepół</router-link>  
       <router-link to="/galeria">Galeria</router-link> 
@@ -26,7 +25,7 @@
 </template>
 
 <style scoped> 
-  .chuj {
+  .curve_2 {
     position: absolute;
     top: 0;
   }
@@ -39,6 +38,7 @@
   .navbar {
     display: flex;
     position: absolute;
+    z-index: 10;
   }
 
   .navbar_nav {
@@ -50,9 +50,7 @@
     place-items: center;
     display: flex;
     position: static;
-    margin-top: 25px;
-    margin-left: 25px;
-    /* width: 100vw; */
+    margin: 25px 0 0 25px;
     /* min-width: 990px; */
     /* margin-bottom: 50px; */
     /* border-radius: 24px; */
@@ -71,10 +69,11 @@
 
   a {
     margin: 0 0 0 15px;
-    font-size: large;
+    font-size: 25px;
     text-decoration: none;
     transition-duration: 0.3s;
     color: black;
+    
   }
 
   a:hover {

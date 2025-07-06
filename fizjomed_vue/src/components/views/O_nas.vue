@@ -23,12 +23,15 @@
                 w przestronną windę, do dyspozycji klientów jest również parking. 
             </p>
         </div>
-        <div>
-            <img class="nfz" src="../../assets/fizjomed_nfz.png">
+        <div class="">
+            <img class="pp" src="../../assets/fozjomed_graffica.png">
+            <div class="nfz">
+                <svg viewBox="0 0 100 100" width="64px" height="64px" transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,0,0)"><path d="m100,0H0v100C0,44.77,44.77,0,100,0Z" fill="#F9F6EE"></path></svg>
 
-            <img src="../../assets/fozjomed_graffica.png">
-
-            
+                <img class="" src="../../assets/fizjomed_nfz.png">
+                
+                <svg viewBox="0 0 100 100" width="64px" height="64px" transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,0,0)"><path d="m100,0H0v100C0,44.77,44.77,0,100,0Z" fill="#F9F6EE"></path></svg>
+            </div>
         </div>
     </div>
     <div class="map">
@@ -38,16 +41,19 @@
 
 <style scoped>
     .main {
-        padding: 50px;
+        padding: 100px 50px 50px 50px;
         width: 1590px;
         min-width: 990px;
         place-content: center;
         place-items: center;
         /* display: flex; */
-        background-color: #009A9A;
+        /* background-color: #009A9A; */
+        background-color: #009a9aa3;
+        
         height: 100%;
         /* border-radius: 50px; */
-        border-bottom-left-radius: 50px;
+        border-radius: 50px;
+        position: relative;
     }
 
     .map {
@@ -55,7 +61,8 @@
     }
 
     p {
-        color: black;
+        color: #000000;
+        font-size: 25px;
     }
 
     iframe {
@@ -70,9 +77,21 @@
     }
 
     .nfz {
-        width: 50%;
-        border-style: solid;
-        border-width: 2px;
-        border-color: #2F2284;
+        /* width: 50%; */
+        /* border-style: solid; */
+        /* border-width: 2px; */
+        /* border-color: #2F2284; */
+        z-index: 10;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-top-right-radius: 50px;
     }
+
+    /* .pp {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    } */
 </style>
