@@ -5,19 +5,15 @@
 </template>
 
 <style scoped>
-    h3 {
-        color: black;
-    }
 
     .foot {    
         background-color: rgb(33, 33, 33);
-        width: 1590px;
-        /* min-width: 990px; */
+        width: auto;
         place-content: center;
         place-items: center;
         display: flex;
         height: 150px;
-        margin-top: 50px;
+        margin: 50px 20px 0px 20px;
         border-top-right-radius: 50px;
         border-top-left-radius: 50px;
     }

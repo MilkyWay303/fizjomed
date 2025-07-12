@@ -1,17 +1,19 @@
 <template>
     <div class="main">
         <div>
+            <img class="logo" src="../../assets/fizjomed_logo_2.png"
+        </div>
+        <div>
             <p> 
-                Gabinet Rehabilitacji Fizjomed został założony w 2003r. Dysponuje nowoczesnym sprzętem do fizykoterapii.
-                W ofercie gabinetu znajdą Państwo większość zabiegów fizykalnych wykonywanych we współczesnej fizykoterapii.
+                Gabinet Rehabilitacji Fizjomed został założony w 2003r. Gabinet dysponuje nowoczesnym sprzętem do fizykoterapii. W ofercie znajdą Państwo większość zabiegów fizykalnych wykonywanych we współczesnej fizykoterapii.
             </p> 
             <p>    
-                Oferujemy możliwość skorzystania z zabiegów Medycyny Manualnej wg. dr. Jemes`a Cyriax`a oraz 
+                Oferujemy możliwość skorzystania z zabiegów Medycyny Manualnej wg. dr. Jemes'a Cyriax'a oraz 
                 Medycyny Manualnej wg. koncepcji Karela Lewita. Systemy te pozwalają dokładnie zdiagnozować przyczynę 
                 dolegliwości związanych np: z bólem pleców, barku, łokcia i w innych zablokowaniach i schorzeniach 
                 czynnościowych narządu ruchu, które są odwracalne. Po dokładnym zdiagnozowaniu pacjenta nasz personel dla 
-                potrzeb terapii wykona serię zabiegów manualnych.W gabinecie wykonujemy również masaże: leczniczy, 
-                klasyczny, relaksacyjny, oraz prowadzimy ćwiczenia dostosowane do schorzeń pacjentów.
+                potrzeb terapii wykona serię zabiegów manualnych. W gabinecie wykonujemy również masaże: leczniczy, 
+                klasyczny, relaksacyjny oraz prowadzimy ćwiczenia dostosowane do schorzeń pacjentów.
             </p>
 
             <p>
@@ -20,78 +22,63 @@
 
             <p>
                 „Fizjomed” znajduje się w Centrum Handlowym „Outlet Graffica” na III piętrze. Budynek wyposażony jest 
-                w przestronną windę, do dyspozycji klientów jest również parking. 
+                w przestronną windę. Do dyspozycji klientów jest również parking. 
             </p>
         </div>
         <div class="">
-            <img class="pp" src="../../assets/fozjomed_graffica.png">
-            <div class="nfz">
-                <svg viewBox="0 0 100 100" width="64px" height="64px" transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,0,0)"><path d="m100,0H0v100C0,44.77,44.77,0,100,0Z" fill="#F9F6EE"></path></svg>
-
+            <div class="">
                 <img class="" src="../../assets/fizjomed_nfz.png">
-                
-                <svg viewBox="0 0 100 100" width="64px" height="64px" transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,0,0)"><path d="m100,0H0v100C0,44.77,44.77,0,100,0Z" fill="#F9F6EE"></path></svg>
+                <img class="graffica" src="../../assets/fozjomed_graffica.png">
+            </div>
+            <div class="">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5126.033377349853!2d21.994286613085052!3d50.035875017007456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cfb013aa7ead1%3A0xa78ebc26349a9d69!2sFizjomed.%20Gabinet%20rehabilitacji!5e0!3m2!1spl!2spl!4v1751718851132!5m2!1spl!2spl"  style="" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
-    </div>
-    <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5126.033377349853!2d21.994286613085052!3d50.035875017007456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cfb013aa7ead1%3A0xa78ebc26349a9d69!2sFizjomed.%20Gabinet%20rehabilitacji!5e0!3m2!1spl!2spl!4v1751718851132!5m2!1spl!2spl"  style="" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </template>
 
 <style scoped>
-    .main {
-        padding: 100px 50px 50px 50px;
-        width: 1590px;
-        min-width: 990px;
-        place-content: center;
-        place-items: center;
-        /* display: flex; */
-        /* background-color: #009A9A; */
-        background-color: #009a9aa3;
-        
-        height: 100%;
-        /* border-radius: 50px; */
-        border-radius: 50px;
-        position: relative;
+    .graffica {
+        width: 500px;
     }
 
-    .map {
-        margin-left: 5px;
+    .place {
+        display: flex;
+    }
+
+    .logo{
+        height: 300px;
+        margin-bottom: 50px;
+    }
+
+    .main {
+        padding: 50px 50px 50px 50px;
+        width: auto;
+        /* min-width: 990px; */
+        place-content: center;
+        place-items: center;
+        margin: 0 20px 0 20px;
+        background-color: #F9F6EE;
+        border-radius: 50px;
+        position: relative;
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(90, 89, 89);
     }
 
     p {
         color: #000000;
-        font-size: 25px;
+        font-size: 35px;
+        font-weight: 500;
+        margin-bottom: 40px;
+        /* text-align: justify; */
     }
 
     iframe {
-        height: 100vh;
-        width: 100%;
         border-style: solid;
         border-width: 2px;
         border-color: gray;
-        /* border-radius: 50px; */
-        border-bottom-right-radius: 50px;
-        border-top-right-radius: 50px;
-    }
-
-    .nfz {
-        /* width: 50%; */
-        /* border-style: solid; */
-        /* border-width: 2px; */
-        /* border-color: #2F2284; */
-        z-index: 10;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        border-top-right-radius: 50px;
-    }
-
-    /* .pp {
-        position: absolute;
-        bottom: 0;
-        left: 0;
         width: 100%;
-    } */
+    }
+
 </style>
