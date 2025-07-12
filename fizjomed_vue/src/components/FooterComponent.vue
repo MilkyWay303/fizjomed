@@ -12,7 +12,7 @@
     .foot {    
         background-color: rgb(33, 33, 33);
         width: 1590px;
-        min-width: 990px;
+        /* min-width: 990px; */
         place-content: center;
         place-items: center;
         display: flex;

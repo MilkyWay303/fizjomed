@@ -34,25 +34,25 @@ import FooterComponent from './components/FooterComponent.vue';
   inset: 1px;
 } */
 
-main {
+/* main {
   display: flex;
   justify-content: center;
   height: 100vh;
-}
+} */
 
 /* main {
   height: 50vh;
 } */
 
-footer {    
+/* footer {    
   display: flex;
   justify-content: center;
   bottom: 0;
-  /* position: absolute; */
-  /* width: 100vw; */
-  /* margin: 15px auto 15px auto; */
-  /* inset: 1px; */
-}
+  position: absolute;
+  width: 100vw;
+  margin: 15px auto 15px auto;
+  inset: 1px;
+} */
 
 /* footer {
   position: absolute;
