@@ -13,9 +13,9 @@
         place-items: center;
         display: flex;
         height: 150px;
-        margin: 50px 20px 0px 20px;
-        border-top-right-radius: 50px;
-        border-top-left-radius: 50px;
+        /* margin: 50px 20px 0px 20px; */
+        /* border-top-right-radius: 50px; */
+        /* border-top-left-radius: 50px; */
     }
 
     a {

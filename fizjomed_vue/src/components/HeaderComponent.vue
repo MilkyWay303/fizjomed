@@ -6,7 +6,7 @@
       </div>
       <div>
         <router-link to="/">O nas</router-link> 
-        <router-link to="/oferta">Oferta</router-link> 
+        <a href="#oferta">Oferta</a> 
         <router-link to="/nasz-zespol">Nasz zepół</router-link>  
         <router-link to="/galeria">Galeria</router-link> 
         <router-link to="/cennik">Cennik</router-link>  
@@ -26,16 +26,16 @@
 
   .navbar {
     height: 130px;
-    width: auto;
+    /* width: auto; */
     background-color: rgb(240, 128, 0);
-    margin: 0 20px 50px 20px;
+    /* margin: 0 20px 50px 20px; */
     place-content: center;
-    border-style: solid;
+    /* border-style: solid;
     border-top: none;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-width: 2px;
-    border-color: rgb(90, 89, 89);
+    border-color: rgb(90, 89, 89); */
   }
 
   .navbar_nav{
