@@ -2,11 +2,11 @@
   <div class="navbar">
     <nav class="navbar_nav">
       <div>
-        <img class="fizjomed_nav" src="../assets/fizjomed_logo_2_bg.png" alt="fizjomed_logo">
+        <img class="fizjomed_nav" src="../assets/fizjomed_logo_2.png" alt="fizjomed_logo">
       </div>
       <div>
         <router-link to="/">O nas</router-link> 
-        <a href="#oferta">Oferta</a> 
+        <router-link to="/oferta">Oferta</router-link> 
         <router-link to="/nasz-zespol">Nasz zepół</router-link>  
         <router-link to="/galeria">Galeria</router-link> 
         <router-link to="/cennik">Cennik</router-link>  
@@ -25,9 +25,9 @@
 <style scoped> 
 
   .navbar {
-    height: 130px;
+    height: 100px;
     /* width: auto; */
-    background-color: rgb(240, 128, 0);
+    background-color: #F9F6EE;
     /* margin: 0 20px 50px 20px; */
     place-content: center;
     /* border-style: solid;
@@ -36,6 +36,7 @@
     border-bottom-right-radius: 50px;
     border-width: 2px;
     border-color: rgb(90, 89, 89); */
+    margin-bottom: 2px;
   }
 
   .navbar_nav{
@@ -45,16 +46,18 @@
   }
 
   .fizjomed_nav {
-    height: 80px;
-    padding-left: 10px;
+    height: 100px;
+    /* padding-left: 10px; */
+    padding-top: 10px;
   }
 
   a {
     margin: 0 0 0 25px;
-    font-size: 32px;
+    font-size: 30px;
     text-decoration: none;
     transition-duration: 0.3s;
     color: black;  
+    font-weight: 500;
   }
 
   a:hover {
