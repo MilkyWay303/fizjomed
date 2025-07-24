@@ -67,7 +67,6 @@ body {
   color: var(--color-text);
   background-color: #009A9A;
   /* background-color: #F9F6EE; */
-  /* background: linear-gradient(180deg,rgba(249, 246, 238, 1) 30%, rgba(0, 154, 154, 1) 100%); */
   /* background-color: #ffffff; */
   transition:
     color 0.5s,
@@ -76,7 +75,8 @@ body {
   font-family:
     /* Inter, */
     /* Montserrat, */
-    "Cormorant Garamond", serif
+    /* "Cormorant Garamond", serif */
+    "Open Sans", 
     -apple-system,
     BlinkMacSystemFont,
     'Segoe UI',
