@@ -7,7 +7,7 @@
 <style scoped>
 
     .foot {    
-        background-color: rgb(33, 33, 33);
+        background-color: #212121;
         width: auto;
         place-content: center;
         place-items: center;
@@ -20,5 +20,6 @@
 
     a {
         text-decoration: none;
+        color: #F9F6EE;
     }
 </style>
