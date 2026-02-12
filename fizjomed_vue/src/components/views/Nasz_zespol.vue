@@ -20,7 +20,21 @@
                 </div>
             </div>
             <div class="certyfikaty">
+            <div
+                v-for="(image, index) in images"
+                :key="index"
+                class="image-container"
+                :class="{ expanded: expandedIndex === index }"
+                @click="toggleExpand(index)"
+                >
+                <img :src="image" alt="certyfikat" />
+    
+                <div v-if="expandedIndex === index">
+                    <button class="arrow left" @click.stop="prevImage">❮</button>
+                    <button class="arrow right" @click.stop="nextImage">❯</button>
+                </div>
             </div>
+        </div>
         </div>
     </div>
 </template>
@@ -52,4 +66,118 @@
         /* place-content: center; */
         place-items: center;
     }
+
+
+    .certyfikaty {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 50px;
+    }
+
+    .image-container {
+        width: 300px;
+        height: 200px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        position: relative;
+        z-index: 1;
+       border-width: 100px;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .image-container.expanded {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1000;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, 0.8);
+        padding: 10px;
+        border-radius: 8px;
+        height: 90vh;
+        width: 90vw;
+    }
+
+    .image-container.expanded img {
+        max-width: 90vw;
+        max-height: 90vh;
+        object-fit: contain;
+        display: block;
+        margin: 0 auto;
+    }
+
+
+
+    .arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(255,255,255,0.7);
+        border: none;
+        font-size: 2rem;
+        padding: 0 10px;
+        cursor: pointer;
+        user-select: none;
+        border-radius: 50%;
+        transition: background-color 0.3s;
+        z-index: 1100;
+    }
+
+    .arrow:hover {
+    background-color: rgba(255,255,255,0.9);
+    }
+
+    .arrow.left {
+    left: 10px;
+    }
+
+    .arrow.right {
+    right: 10px;
+    }
 </style>
+
+<script setup>
+    import { ref } from 'vue'
+    import img1 from '@/assets/fizjomed_cer_1.png'
+    import img2 from '@/assets/fizjomed_cer_2.png'
+    import img3 from '@/assets/fizjomed_cer_3.png'
+    import img4 from '@/assets/fizjomed_cer_4.png'
+    import img5 from '@/assets/fizjomed_cer_5.png'
+    import img6 from '@/assets/fizjomed_cer_6.png'
+    import img7 from '@/assets/fizjomed_cer_7.png'
+    import img8 from '@/assets/fizjomed_cer_8.png'
+
+const images = ref([img1, img2, img3, img4, img5, img6, img7, img8])
+
+const expandedIndex = ref(null)
+
+function toggleExpand(index) {
+  if (expandedIndex.value === index) {
+    expandedIndex.value = null 
+  } else {
+    expandedIndex.value = index
+  }
+}
+
+function nextImage() {
+  if (expandedIndex.value === null) return;
+  expandedIndex.value = (expandedIndex.value + 1) % images.value.length;
+  updateOrientation(expandedIndex.value);
+}
+
+function prevImage() {
+  if (expandedIndex.value === null) return;
+  expandedIndex.value = (expandedIndex.value - 1 + images.value.length) % images.value.length;
+  updateOrientation(expandedIndex.value);
+}
+
+</script>

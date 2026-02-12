@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import O_nas from '../views/O_nas.vue'
+import O_nas from '../views/landing_page.vue'
 
 const routes = [
   {
