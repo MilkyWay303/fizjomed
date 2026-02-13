@@ -28,11 +28,11 @@
 
 <style scoped>
     .glass {
-        background: rgba(145, 125, 125, 0.1);
-        border-radius: 16px;
+        background: #f9f6ee;
+        /* border-radius: 16px; */
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
-        backdrop-filter: blur(2px);
-        -webkit-backdrop-filter: blur(2px);
+        /* backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px); */
         border: 1px solid rgba(235, 168, 168, 0.4);
         padding: 50px;
     }
@@ -51,8 +51,8 @@
     }
 
     .main {
-        padding: 50px;
-        width: auto;
+        /* padding: 0 50px 50px 50px; */
+        width: 100vw;
         /* place-content: center; */
         place-items: center;
     }
@@ -71,7 +71,7 @@
 
     .text {
         width: auto;
-        max-width: 1200px;
+        /* max-width: 1200px; */
         margin-top: 20px;
         /* background: rgba(145, 125, 125, 0.1);
         border-radius: 16px;
