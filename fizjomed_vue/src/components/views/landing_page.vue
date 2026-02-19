@@ -17,6 +17,9 @@
                 <p>
                     <b>Fizjomed</b> mieści się w Centrum Handlowym Outlet Graffica na III piętrze. Budynek jest wyposażony w przestronną windę, a dla naszych pacjentów dostępny jest wygodny parking.
                 </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, dolores eum corrupti nostrum iure soluta, optio aut, eos eligendi natus aspernatur ducimus blanditiis pariatur facilis vitae odio? Quo aliquid minima cupiditate ducimus, pariatur quia? Sed aliquam fugit corporis omnis reiciendis quam, ab natus nihil assumenda explicabo esse nobis exercitationem sunt temporibus eum veniam distinctio ut laboriosam inventore vitae repellat excepturi quia. Dolor fuga ea corporis vero debitis, voluptatum quia nemo ex sapiente necessitatibus ad ab eaque mollitia libero quaerat neque? Eius aut eligendi accusantium autem molestias modi reprehenderit cupiditate hic dolore officiis accusamus, assumenda ducimus beatae corporis, aliquam reiciendis ratione dignissimos ullam perferendis quam ipsa delectus enim? Eius consequatur, nostrum eos quo possimus neque, facilis suscipit minima distinctio sunt sequi. Est similique alias sint nam veritatis impedit illum. Quis dolor ipsam voluptatibus expedita nulla deleniti harum unde aperiam temporibus animi cumque vitae magnam nihil tempora quia ipsum optio culpa, praesentium fugiat a nam vero earum. Eligendi eius architecto expedita debitis consequatur, odit, odio inventore enim libero quis, explicabo qui dolor. Quis, tenetur obcaecati. Vel voluptatum quos reprehenderit debitis nam. Ullam ut, necessitatibus magni deleniti tempore tenetur fugiat? Rerum, molestiae architecto aliquid provident accusantium aliquam explicabo fugit eveniet soluta inventore iste excepturi? Voluptas amet non illum ipsa eos quam ad aliquid pariatur repellat repellendus dolores nostrum possimus quaerat quidem adipisci unde a odio mollitia, impedit neque? Reiciendis, omnis facilis adipisci fugiat enim ipsum quod nobis illum vel fugit ex expedita. Minus ratione reiciendis ad quaerat, libero rem illum ut commodi? Ducimus obcaecati voluptatem iusto incidunt nobis molestiae excepturi eaque. Explicabo ipsa repellat earum natus corporis eius repudiandae officia rerum, iusto quod nulla odio beatae voluptatum aliquid distinctio quos ipsum obcaecati nisi placeat nihil, voluptatem saepe iure blanditiis error. Corrupti est non rem porro? Incidunt dolores minima quam at quia, facilis recusandae! Aliquam, veritatis. Ducimus reprehenderit vel repellendus mollitia culpa voluptatum perspiciatis! Deleniti, explicabo unde recusandae nam nihil ea aliquid sed amet qui? Ipsum, quisquam praesentium libero necessitatibus perspiciatis impedit nulla ipsam placeat accusamus a. Suscipit ducimus et, provident deserunt quia maiores cumque accusamus repudiandae. Nulla, quos ut sit beatae nobis est adipisci ducimus unde corrupti optio dolore magni quibusdam odio molestias, sequi quidem quia consectetur. Aut error magnam quos nesciunt? Nulla doloremque necessitatibus debitis quo ea aliquid possimus tempore. Optio harum, eum odio mollitia, repellendus at voluptas non voluptates id perspiciatis necessitatibus accusamus consequatur, cum maiores. Quod fugiat saepe debitis voluptatum? Optio, cumque maiores. Dolores at iusto vel, voluptatem asperiores deserunt nesciunt quasi quibusdam suscipit debitis aspernatur quae, laboriosam perferendis dicta dolorum mollitia aperiam eveniet molestiae sequi commodi consequuntur veniam est similique temporibus. A culpa voluptatum aliquid ipsum repudiandae iure quod dolor laudantium cupiditate tempore magnam, pariatur quis quas optio fugit cumque. Quas laboriosam tempore exercitationem. Reiciendis qui nostrum, at cum voluptatum ab adipisci fuga quasi! Rerum animi nemo sed, commodi fugit, deleniti error laudantium ad odit non illo. Labore odit nesciunt deleniti molestias. Nesciunt, fugit! Quaerat dolore, voluptatum maxime illo nulla fuga, amet, adipisci sed commodi nemo provident laboriosam! Distinctio.
+                </p>
             </div>
             <div class="">
                     <img class="" src="../../assets/fizjomed_nfz_bg.png">
@@ -52,7 +55,7 @@
 
     .main {
         /* padding: 0 50px 50px 50px; */
-        width: 100vw;
+        /* width: 100vw; */
         /* place-content: center; */
         place-items: center;
     }
@@ -66,7 +69,7 @@
         color: #000000;
         font-size: 28px;
         font-weight: 400;
-        margin-bottom: 35px;
+        /* margin-bottom: 35px; */
     }
 
     .text {
@@ -86,7 +89,7 @@
         border-style: solid;
         border-width: 2px;
         border-color: gray;
-        width: 100%;
+        /* width: 100%; */
     }
 
 </style>

@@ -25,13 +25,13 @@ import FooterComponent from './components/FooterComponent.vue';
   margin: 0 auto 2rem;
 }
 
+.app {
+  min-height: 100vh;
+  position: relative;
+}
+
 /* header {
-  display: flex;
-  justify-content: center;
-  position: absolute;
   top: 0;
-  margin: 15px auto 15px auto;
-  inset: 1px;
 } */
 
 /* main {
