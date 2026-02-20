@@ -13,7 +13,7 @@
         <li><router-link class="link"to="/kontakt">Kontakt</router-link></li>
       </ul>
       <div class="icon">
-        <i @click="toggleMobileNav" v-show="mobile" class="far fa-bars" :class="{'icon-active' : mobileNav}"></i>
+        <i @click="toggleMobileNav" v-show="mobile" class="fa fa-bars" :class="{'icon-active' : mobileNav}"></i>
       </div>
       <transition name="mobile-nav">
         <ul v-show="mobileNav" class="dropdown-nav">
@@ -81,7 +81,7 @@ export default {
 <style scoped> 
 
 header {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgb(249, 246, 238);
   z-index: 99;
   width: 100%;
   position: fixed;
@@ -103,7 +103,7 @@ header {
     ul,
     .link {
       font-weight: 500;
-      color: #fff;
+      color: #000;
       list-style: none;
       text-decoration: none;
     }
@@ -155,6 +155,8 @@ header {
         cursor: pointer;
         font-size: 24px;
         transition: .8s ease all;
+        color: #000;
+        z-index: 999;
       }
     }
 
@@ -169,14 +171,15 @@ header {
       width: 100%;
       max-width: 250px;
       height: 100%;
-      background-color: #fff;
+      background-color: #212121;
       top: 0;
       left: 0;
+      padding-top: 10rem;
 
       li {
         margin-left: 0;
         .link {
-          color: #000;
+          color: #fff;
         }
       }
     }
@@ -192,18 +195,29 @@ header {
     }
 
     .mobile-nav-enter-to {
-      transform: translateX(0);
+      transform: translateY(0);
     }
   }
 }
 
 
 .scrolled-nav {
-  background-color: #000;
+  background-color: #212121;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 
   nav {
     padding: 8px 0;
+
+    ul,
+    .link {
+      color: #fff;
+    }
+
+    .icon{
+      i {
+        color: #fff;
+      }
+    }
 
     .branding {
       img {
